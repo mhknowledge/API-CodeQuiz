@@ -156,7 +156,7 @@ function checkAnswer(currentQuestion){
         } else {
             if(test){console.log("wrong answer");}
             quizSecElapsed -= 10;
-
+            window.alert("Wrong answer, you have been charged 10 seconds...");
         }
         if(test){console.log("selected ", selection);}
         showAnswer(currentQuestion);
